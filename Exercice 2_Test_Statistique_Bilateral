@@ -1,0 +1,9 @@
+1)
+
+from math import sqrt
+
+def sigma_binomial(p,n):
+  return sqrt(p*(1-p)/n)
+
+z = (0.8-0.73)/sigma_binomial(0.73, 1000)
+print z
