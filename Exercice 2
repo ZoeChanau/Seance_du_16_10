@@ -3,7 +3,7 @@
 #1 donnée par an : 40 données --> N=40
 #Moyenne empirique de 26 : xbarre = 26
 #mu=25
-#écart type =2
+#écart type =2 --> donc il y aura 68% des valeurs entre 23 et 27 (sigma=2 -->68%, sigma=1.96-->95%)
 
 
 from math import sqrt
