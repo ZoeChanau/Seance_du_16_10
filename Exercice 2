@@ -13,6 +13,10 @@ from math import sqrt
 z=(26-25)/(2/sqrt(40))
 print z
 
+#z=3.16
+#Le z représente la valeur moyenne empirique passé dans une foction qui transforme notre distribution sur R en une distribution sur N (0,1)
+#Ici notre 25 sera 0, 27 sera 1 et 26 sera 3.16
+
 2)
 
 #cdf : calcule l'intégrale et donne des probas R-->[0,1]
