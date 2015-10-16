@@ -1,0 +1,13 @@
+#Exercice 2 Régression linéaire
+
+#1 donnée par an : 40 données --> N=40
+#Moyenne empirique de 26 : xbarre = 26
+#mu=25
+#écart type =2
+
+
+from math import sqrt
+#importer la racine carrée
+
+z=(26-25)/(2/sqrt(40))
+print z
