@@ -1,13 +1,27 @@
 #Exercice 2 Régression linéaire
 
+1)
+
 #1 donnée par an : 40 données --> N=40
 #Moyenne empirique de 26 : xbarre = 26
 #mu=25
 #écart type =2 --> donc il y aura 68% des valeurs entre 23 et 27 (sigma=2 -->68%, sigma=1.96-->95%)
-
 
 from math import sqrt
 #importer la racine carrée
 
 z=(26-25)/(2/sqrt(40))
 print z
+
+2)
+
+#cdf : calcule l'intégrale et donne des probas R-->[0,1]
+#ppf : par des proba et nous donne la distribution [0,1]-->R
+
+from scipy.stats import norm
+from math import sqrt
+
+z=(26-25)/(2/sqrt(40))
+print z
+
+1-norm.cdf(3.16)
